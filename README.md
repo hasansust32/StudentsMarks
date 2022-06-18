@@ -7,6 +7,6 @@ Core java programming knowledge is needed for this project.
 ![alt text](https://github.com/hasansust32/StudentsMarks/blob/master/grade%20output.PNG)
 
 
-## Javafx GUI from 
+## Java Swing GUI from 
 ![alt text](https://github.com/hasansust32/StudentsMarks/blob/master/studentForm.PNG)
 
