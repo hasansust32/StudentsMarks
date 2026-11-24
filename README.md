@@ -1,12 +1,25 @@
 # StudentsMarks
 
-StudentMarks is a java based small project which can detect student marks correctly with some given value. It is mainly based on javafx for GUI and i use basic java programming for this project. 
-Core java programming knowledge is needed for this project. 
+A small Java Swing desktop form that takes a student's name and three marks, then shows the total, the average and a Pass/Fail result (pass if the average is above 50). Written as an introductory Java GUI exercise.
 
-## Output of this project 
-![alt text](https://github.com/hasansust32/StudentsMarks/blob/master/grade%20output.PNG)
+| Input form | Result |
+|:---:|:---:|
+| ![Student form](studentForm.PNG) | ![Grade output](grade%20output.PNG) |
 
+## Implementation
 
-## Java Swing GUI from 
-![alt text](https://github.com/hasansust32/StudentsMarks/blob/master/studentForm.PNG)
+- `src/Student.java`: event handler for the **Calculate** button and the `main` method
+- `src/Student.form`: layout created with the IntelliJ IDEA GUI Designer
 
+## Running
+
+The form layout is compiled from `Student.form` by IntelliJ IDEA's GUI Designer, so open the project in IntelliJ IDEA and run `Student.main`. Compiling `Student.java` with plain `javac` will not bind the form fields.
+
+## Known issues
+
+- The average uses integer division (`tot / 3`), so fractional averages are truncated.
+- Non-numeric input throws an unhandled `NumberFormatException`.
+
+## Author
+
+**S M Mahamudul Hasan** · [GitHub](https://github.com/hasansust32)
